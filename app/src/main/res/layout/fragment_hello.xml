@@ -1,0 +1,42 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jgonfer.partyquest.fragment.HelloFragment"
+    android:background="@color/colorPrimaryDark">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="#fff"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/hello_label"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Hello [[NAME]]!"
+            android:textSize="25sp"
+            android:gravity="center_vertical"
+            android:layout_margin="20dp"
+            />
+
+        <TextView
+            android:id="@+id/time_label"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Current time:"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+
+</FrameLayout>
